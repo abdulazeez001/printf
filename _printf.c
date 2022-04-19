@@ -77,9 +77,7 @@ if (numOfCharPrintedByExtP == -1 || numOfCharPrintedByExtP != 0)
 format++;
 }
 if (numOfCharPrintedByExtP > 0)
-{
 numOfCharPrinted += numOfCharPrintedByExtP;
-}
 else if (numOfCharPrintedByExtP == 0)
 {
 _putchar('%');
