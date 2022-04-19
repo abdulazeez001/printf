@@ -16,6 +16,14 @@ int i = 0;
 print_type funcs[] = {
 {"c", _printf_char},
 {"s", _printf_str},
+{"d", _printf_int},
+{"i", _printf_int},
+{"b", _printf_unsignedToBinary},
+{"u", _printf_unsigned},
+{"o", _printf_oct},
+{"x", _printf_hex},
+{"X", _printf_HEX},
+{"S", _printf_STR},
 {NULL, NULL}
 };
 
