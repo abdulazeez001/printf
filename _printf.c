@@ -68,9 +68,7 @@ format += 2, numOfCharPrinted++;
 continue;
 }
 if (*(format + 1) == '\0')
-{
-return (-1);
-}
+	return (-1);
 numOfCharPrintedByExtP = get_print_type_func(*(format + 1), arg);
 if (numOfCharPrintedByExtP == -1 || numOfCharPrintedByExtP != 0)
 {
