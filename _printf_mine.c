@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main_my.h"
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -45,7 +45,7 @@ return (funcs[i]._print_type(arg));
  * Return: the number of characters printed
  */
 
-int _printf(const char *format, ...)
+int _printf_mine(const char *format, ...)
 {
 va_list arg;
 int numOfCharPrinted = 0, numOfCharPrintedByExtP = 0;
